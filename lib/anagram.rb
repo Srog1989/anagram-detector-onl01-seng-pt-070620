@@ -7,9 +7,11 @@ class Anagram
      @word = word
    end 
   
-def match(array_of_words)
-  array_of_words.each do |word|
-    word.split("") == @word
+def match(anagrams?)
+  anagrams?.each do |word|
+   if word.split("") == @word
+  else 
+   []
   end
 end
   
