@@ -10,6 +10,7 @@ class Anagram
 def match(anagrams)
   anagrams.each do |word|
    if word.split("") == @words
+  end
 end
   
 end
