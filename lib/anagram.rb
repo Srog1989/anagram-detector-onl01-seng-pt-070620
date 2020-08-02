@@ -3,6 +3,7 @@
 
 class Anagram
   attr_accessor :word
+  
    def initialize(word)
      @word = word
    end 
@@ -10,6 +11,7 @@ class Anagram
 def match(anagrams)
   anagrams.each do |word|
    if word.split("") == @words
+  end
   end
 end
   
