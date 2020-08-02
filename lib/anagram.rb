@@ -4,7 +4,9 @@
 class Anagram
   attr_accessor :word
   
-  %w(word)
+   def initialize(word)
+     @word = word
+   end 
   
 def match(collection_of_words)
   collection_of_words.each do |word|
