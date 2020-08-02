@@ -12,7 +12,6 @@ def match(collection_of_words)
   collection_of_words.each do |word|
    
   end
-  end
 end
   
 end
